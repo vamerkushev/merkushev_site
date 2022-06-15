@@ -1,0 +1,954 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(81, 255, 0, 0.761);
+}
+
+.header__name{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 40px;
+    font: 30px/80px 'Crete Round', sans-serif;
+    font-weight: 700;
+    color: #000000;
+    cursor: pointer;
+    list-style: none;
+}
+
+.header__number{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    height: 40px;
+    font: 30px/80px 'Crete Round', sans-serif;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+
+.number__color{
+    font: 30px/80px 'Crete Round', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    color: rgb(68, 67, 67);
+}
+
+.header__city{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 50px;
+}
+
+.city__form{
+    background-color: white;
+    border-color: rgb(255, 0, 17);
+    border-width: 3px;
+    width: 250px;
+}
+
+.landing{
+    display: flex;
+}
+
+.landing__photo{
+    width: 100%;
+    height: 100%;
+}
+
+.landing__text{
+    font: 45px/40px 'Crete Round', sans-serif;
+    font-weight: 600;
+    background: rgb(255, 255, 255);
+    color: rgb(2, 2, 2);
+    border-radius: 5px;
+    max-width: 50%;
+    height: auto;
+    margin-left: 60px;
+    margin-top: 150px;
+    position: absolute;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__left-content{
+    max-width: 600px;
+    margin: 20px;
+    border: 3px solid #4cf20f;
+    padding: 40px;
+    display: inline-block;
+}
+
+.about__title{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font: 40px/80px 'Crete Round', sans-serif;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.title__color{
+    font: 40px/80px 'Crete Round', sans-serif;
+    font-weight: 700;
+    margin-left: 10px;
+    color: #44ff00c8;
+}
+
+.title__text{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font: 30px/80px 'Crete Round', sans-serif;
+    font-weight: 500;
+}
+
+.about__right-content{
+    max-width: 600px;
+    margin: 50px;
+    border: 3px solid #4cf20f;
+    padding: 50px;
+    height: 30%;
+    display: inline-block;
+}
+
+.right-content__top{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right-content__bottom{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.right-content__photo_top-left{
+    width: 250px;
+    height: 150px;
+}
+
+.right-content__photo_top-right{
+    width: 250px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.right-content__photo_bottom{
+    width: 250px;
+    height: 150px;
+}
+
+.right-content__photo_right{
+    width: 300px;
+    height: 150px;
+    margin-left: 15px;
+}
+
+.main__title-top{
+    text-align: center;
+    font: 45px/100px 'Crete Round', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    position: relative;
+    padding-left: auto;
+    padding-right: auto;
+    margin-top: 80px;
+}
+
+.main {
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 1500px;
+}
+
+.main__content {
+    display: inline-block;
+    min-height: 200px;
+    width: 350px;
+    position: relative;
+    margin-top: 27px;
+    margin-left: 27px;
+    border: 3px solid #4cf20f;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.main__content:hover{
+    border: 3px solid #fe0404;
+}
+
+.main__content:nth-child(3n) {
+    margin-right: 0;
+}
+
+.content_first {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85px;
+    height: 80px;
+    background: url("../images/photo_help.PNG");
+    border-radius: 50px;
+}
+
+.content_second{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72px;
+    height: 80px;
+    background: url("../images/photo_tarif.PNG");
+    border-radius: 50px;
+    
+}
+
+.content_third{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63px;
+    height: 68px;
+    background: url("../images/photo_money.PNG");
+    border-radius: 50px;
+}
+
+.content_fourth{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65px;
+    height: 73px;
+    background: url("../images/photo_unlock.PNG");
+    border-radius: 0px;
+}
+
+.content_fifth{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
+    height: 73px;
+    background: url("../images/photo_application.PNG");
+    border-radius: 0px;
+}
+
+.content_sixth{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62px;
+    height: 73px;
+    background: url("../images/photo_drive.PNG");
+    border-radius: 0px;
+}
+
+.main__title {
+    font: 600 20px/30px "Poppins", sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__text {
+    font: 500 15px/27px "Montserrat", sans-serif;
+    color: #737272;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__title-top{
+    font: 600 40px/30px "Poppins", sans-serif;
+}
+
+.main_title-bottom{
+    text-align: center;
+    font: 500 20px/30px "Poppins", sans-serif;
+    margin-top: 10px;
+}
+
+.our-model{
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+
+.our-model__model{
+    width: 468px;
+    margin-top: 27px;
+    margin-left: 27px;
+    border: 3px solid #4cf20f;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 0;
+    left: 0;
+    position: fixed; 
+    top: 0;
+    bottom: 0;
+    display: none;
+}
+
+.overlay:target {
+    display: block;
+}
+
+.window img { 
+   width: 100%;
+}
+
+.window {
+    left: 50%;
+    position: fixed;
+    padding: 15px;
+    background: #fefeff;
+    border-radius: 15px;
+}
+
+.overlay:target+.window {
+    transform: translate(-50%, 0);
+    top: 7%;
+}
+
+.model__out{
+    width: 5px;
+    height: 50px;
+}
+
+.close:before {
+    content: "свернуть";
+}
+
+.photo{
+    max-width: 460px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo__after{
+    width: 400px;
+    height: 270px;
+}
+
+.model__title{
+    text-align: center;
+    font: 30px/100px 'Crete Round', sans-serif;
+    font-weight: 700;
+    margin-bottom: -25px;
+}
+
+.model__text{
+    text-align: center;
+}
+
+.price_title{
+    text-align: center;
+    font: 45px/100px 'Crete Round', sans-serif;
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.price li{
+    list-style: none;
+}
+
+.price__left-content{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #4cf20f;
+    padding: 40px;
+}
+
+.price__left-content:hover{
+    padding: 42px;
+    border: 3px solid #ff000097;
+}
+
+
+.price__right-content{
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #4cf20f;
+    padding: 40px;
+}
+
+.price__right-content:hover{
+    padding: 42px;
+    border: 3px solid #ff000097;
+}
+
+.price__text-title{
+    font: 30px/50px 'Crete Round', sans-serif;
+    font-weight: 700;
+    color: #3fc310;
+}
+
+.price__text{
+    font: 30px/50px 'Crete Round', sans-serif;
+    font-weight: 500;
+    margin-left: 10px;
+    color: #424040;
+}
+
+.form{
+    width: 100%;
+    background-color: #96ff50;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.form_title{
+    text-align: center;
+    font: 45px/100px 'Crete Round', sans-serif;
+    font-weight: 700;
+    margin-top: -40px;
+}
+
+.form__content{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: auto;
+    padding: 15px 20px;
+    background:#4cf20f;
+}
+
+.content__text{
+    width: 400px;
+    padding: 5px 9px;
+    margin-bottom: -10px;
+    font-size: 22px;
+    color: #191717;
+    border: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content__message{
+    width: 400px;
+    height: 100px;
+    padding: 5px 9px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #676767;
+    border: 2px solid rgb(255, 255, 255);
+}
+ 
+.content__button{ 
+    display: block;
+    width: 210px;
+    padding: 15px 11px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: #ff3002;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content__button:hover{
+    background:#ff1f079f;
+    font: 400 20px/22px 'Raleway', sans-serif;
+    padding: 15px 54px;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link__vk{
+    width: 140px;
+    height: 100px;
+}
+
+.link__vk:hover{
+    width: 160px;
+    height: 115px; 
+    transition: .2s;
+}
+
+.link__youtube{
+    width: 145px;
+    height: 105px;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+.link__youtube:hover{
+    width: 155px;
+    height: 115px;
+    transition: .2s;
+}
+
+.link__telegram{
+    width: 100px;
+    height: 100px;
+}
+
+.link__telegram:hover{
+    width: 110px;
+    height: 110px;
+    transition: .2s;
+}
+
+.footer{
+    background-color: #4cf20f;
+    max-width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.footer__title{
+    font: 30px/50px 'Crete Round', sans-serif;
+    font-weight: 600;
+    color: #424040;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger__text{
+    display: none;
+}
+
+#nav{
+    position: absolute;
+}
+
+@media screen and (min-width:600px){
+    .landing__after{
+        display: none;
+    }
+
+    .form_title{
+        text-align: center;
+        font: 45px/100px 'Crete Round', sans-serif;
+        font-weight: 700;
+        margin-top: -40px;
+    }
+    
+    .form__content{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        height: auto;
+        padding: 15px 20px;
+        background:#4cf20f;
+    }
+}
+
+@media screen and (min-width: 760px){
+
+    .price__after{
+        display: none;
+    }
+
+    .price-go__after{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1400px){
+
+    .about__left-content{
+        max-width: 100%;
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .about__right-content{
+        max-width: 100%;
+        display: block;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .price_title{
+        display: block;
+    }
+}
+
+@media screen and (max-width:1000px){
+
+    .header__name{
+        display: none;
+    }
+
+    .header__number{
+        display: none;
+    }
+
+    .landing__text{
+        margin-top: 20px;
+        margin-left: 20px;
+        max-width: 70%;
+        font: 30px/40px 'Crete Round', sans-serif;
+        font-weight: 600;
+    }
+
+    .burger-nav{
+        display: block;
+        width: 100%;
+    }
+
+    #nav{
+        list-style-type: none;
+        overflow: hidden;
+        background: #4cf20f;
+        height: 0px;
+        max-height: auto; 
+        width: auto;
+        margin-top: -45px;
+        position: absolute;
+        border-radius: 5px;
+    }
+  
+    #nav.open{
+        height: auto;
+        max-height: 500px; 
+        transition: linear 1s;
+    }
+  
+    #nav li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        display: block;
+        margin: 0;
+        -webkit-transition: linear 1s;
+        transition: linear 1s;
+    }
+    
+    #contain{
+        display: inline-block;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .bar1, .bar2, .bar3{
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        transition: 0.2s;
+    }
+}
+
+@media screen and (max-width:970px){
+
+    .price__left-content{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 200px;
+        width: 350px;
+    }
+
+    .price__right-content{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 200px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width:760px){
+
+    .price__left-content{
+        display: none;
+    }
+
+    .price__right-content{
+        display: none;
+    }
+
+    .price__after{
+        text-align: center;
+        border: 3px solid #4cf20f;
+        padding: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .price-go__after{
+        text-align: center;
+        border: 3px solid #4cf20f;
+        padding: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .photo__after{
+        min-width: 460px;
+    }
+
+    .right-content__photo_right{
+        display:flex;
+    }
+}
+
+@media screen and (min-width:1400px){
+
+    .price__left-content{
+        margin-right: 100px;
+    }
+    
+    .price__right-content{
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:600px){
+
+    .landing__text{
+        font: 25px/25px 'Crete Round', sans-serif;
+        font-weight: 600;
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+
+    .landing__after{
+        font: 30px/40px 'Crete Round', sans-serif;
+        font-weight: 600;
+        margin-top: 20px;
+        text-align: center;
+        width: auto;
+    }
+
+    .about__title{
+        display: none;
+    }
+
+    .right-content__photo_right{
+        display: flex;
+    }
+
+    .right-content__photo_top-left{
+        width: 230px;
+        height: 130px;
+    }
+    
+    .right-content__photo_top-right{
+        width: 230px;
+        height: 130px;
+        margin-left: 15px;
+    }
+    
+    .right-content__photo_bottom{
+        width: 230px;
+        height: 130px;
+    }
+    
+    .right-content__photo_right{
+        width: 220px;
+        height: 130px;
+        margin-left: 15px;
+    }
+
+    .about__right-content{
+        display: none;
+    }
+
+    .photo{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+        background-color: #96ff50;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-top: 50px;
+    }
+    
+    .form_title{
+        text-align: center;
+        font: 45px/100px 'Crete Round', sans-serif;
+        font-weight: 700;
+        margin-top: -40px;
+    }
+    
+    .form__content{
+        display: flex;
+        width: 200px;
+        height: 400px;
+    }
+    
+    .content__text{
+        width: 200px;
+        padding: 5px 9px;
+        margin-bottom: -10px;
+        font-size: 22px;
+        color: #191717;
+        border: 2px solid rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .content__message{
+        width: 200px;
+        height: 100px;
+        padding: 5px 9px;
+        margin-bottom: 10px;
+        font-size: 20px;
+        color: #676767;
+        border: 2px solid rgb(255, 255, 255);
+        margin-left: 5px;
+    }
+     
+    .content__button{ 
+        display: block;
+        width: 210px;
+        padding: 15px 11px;
+        margin-bottom: 20px;
+        font-size: 22px;
+        color: #FFFFFF;
+        background: #ff3002;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    .content__button:hover{
+        background:#ff1f079f;
+        font: 400 20px/22px 'Raleway', sans-serif;
+        padding: 15px 54px;
+    }
+
+    .content__text{
+        max-width: 100%;
+    }
+
+    .content__message{
+        max-width: 100%;
+    }
+
+    .link{
+        display: flex;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .link__vk{
+        width: 100px;
+        height: 70px;
+    }
+    
+    .link__youtube{
+        width: 105px;
+        height: 75px;
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+    
+    .link__telegram{
+        width: 75px;
+        height: 75px;
+    }
+
+    .about__left-content{
+        border: 3px solid #4cf20f;
+        padding: 15px;
+        width: 100%;
+    }
+
+    .title__text{
+        font: 30px/35px 'Crete Round', sans-serif;
+        font-weight: 500;
+        width: 100%;
+    }
+}
